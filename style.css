@@ -1,0 +1,147 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+    color: black;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+header {
+    background-image: linear-gradient(black 20%, gray);
+    padding: 10px;
+    min-width: 256px;
+}
+
+header span {
+    color: white;
+    font-size: 0.8em;
+    /* font-size: large; */
+}
+
+h1 {
+    color: white;
+    width: fit-content;
+    margin: auto;
+    text-shadow: 2px 0px 6px violet;
+    font-size: 2.2em;
+}
+
+menu {
+    margin-top: 1.2em;
+    padding: 0%;
+}
+
+menu p {
+    color: white;
+}
+
+menu a {
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+menu a:hover {
+    background-color: black;
+    padding: 3px;
+    text-decoration: underline;
+    box-shadow:3px 4px 3px 0px white;
+}
+
+main {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+main p {
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    min-width: 256px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px 0px;
+    box-shadow: 0px 0px 0px white;
+}
+
+#introducao {
+    background-color: #7A7A7A;
+    border: 7px groove rgb(251, 203, 251);
+    border-radius: 10px 0px;
+    transition: 0.2s;
+}
+
+#introducao:hover {
+    box-shadow: 0px 0px 10px violet;
+}
+
+#numero-da-sequencia {
+    border-color: violet;
+}
+
+#botao-adicionar {
+    font-weight: bold;
+    border-style: groove;
+    border-radius: 15px 0px;
+    background-color: darkgrey;
+    transition: 0.2s;
+}
+
+#botao-adicionar:hover {
+    color: white;
+    box-shadow: 0px 0px 10px violet;
+}
+
+#botao-magico {
+    font-size: xx-large;
+    border-radius: 50%;
+    background: darkgrey;
+    border: 0;
+    transition: 0.2s;
+    padding: 8px;
+}
+
+#botao-magico:hover {
+    box-shadow: 0px 0px 10px violet;
+    border-width: 3px;
+}
+
+footer {
+    /* background-color: black; */
+    background-image: linear-gradient(#7A7A7A 5%, black);
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 2px -1px 0px black;
+    border-width: 0px 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+footer a {
+    color: white;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 8px white;
+}
