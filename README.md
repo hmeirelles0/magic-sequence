@@ -1,4 +1,4 @@
-Oi 👋
+<h1> Oi 👋</h1>
 
 Gostaria de compartilhar um pequeno projeto pessoal que teve como intuito a prática de um dos fundamentos da linguagem JavaScript, as funções "Callback", especificamente a função ```ForEach```, neste caso implementada sobre um array que recebe como entrada, valores numéricos enviados pelo usuário.
 
@@ -7,7 +7,7 @@ Através do método ```ForEach```, cada elemento, seu valor e respectiva chave (
 > [!NOTE]
 > O site também apresenta responsividade para diferentes tamanhos de tela, do mobile ao desktop.
 
-Hi 👋
+<h1>Hi 👋</h1>
 
 I'd like to share this little personal project of mine, developed with the goal of practicing some of the fundamentals of JavaScript, the Callback functions, especifically the ```ForEach``` function, in this case implemented over an array which receives as entry, numerical values submitted by the user.
 
